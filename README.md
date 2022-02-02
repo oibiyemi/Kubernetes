@@ -50,7 +50,7 @@ sudo systemctl start kubelet
 sudo systemctl enable kubelet.service
 
 
-
+#Use the token that will be generated
 #sudo kubeadm join 172.31.13.51:6443 --token nsw52x.jqv5lezwzlpfkeuq --discovery-token-ca-cert-hash sha256:289ef23de4847829acf89456fa644f07ad0eab312006a4c0d085af051dc0a83d
 
 
